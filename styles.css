@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
-
+/* e3b140 */
+/* ffdf00 */
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +8,7 @@
   font-family: 'Montserrat', sans-serif;
   transition: all 300ms ease-in-out;
   scroll-behavior: smooth;
-  color: #FFDF00;
+  color: #E3B140;
 }
 a {
   text-decoration: none;
@@ -122,13 +123,14 @@ nav ul li a:hover {
   text-decoration: none;
   cursor: pointer;
   background-color: rgba(86, 86, 86, 0.75);
-  border: 0.25vmin solid #ffdf00;
+  border: 0.25vmin solid #E3B140;
   border-radius: 12px;
+  padding: 16px;
   text-transform: uppercase;
 }
 .hero-header a:hover {
   color: #565656;
-  background-color: #ffdf00;
+  background-color: #E3B140;
 }
 #services {
   width: 100%;
@@ -194,12 +196,12 @@ nav ul li a:hover {
 .service a {
   margin: 32px;
   padding: 16px 32px;
-  border: 0.25vmin solid #FFDF00;
+  border: 0.25vmin solid #E3B140;
   border-radius: 16px;
 }
 .service a:hover {
   border: 0.25vmin solid #565656;
-  background-color: #FFDF00;
+  background-color: #E3B140;
   color: #565656;
 }
 #about {
@@ -459,7 +461,7 @@ form {
   background-color: transparent;
   border: none;
   border-width: 0 0 1px 0;
-  border-color: #ffdf00;
+  border-color: #E3B140;
   border-style: solid;
   padding: 4px;
   color: #000000;
@@ -472,14 +474,14 @@ form {
   margin: 32px 0;
   padding: 4px;
   background-color: #565656;
-  color: #FFDF00;
-  border: 1px solid #ffdf00;
+  color: #E3B140;
+  border: 1px solid #E3B140;
   border-radius: 8px;
   font-weight: 900;
 }
 .input-container input[type='submit']:hover {
   color: #565656;
-  background-color: #ffdf00;
+  background-color: #E3B140;
 }
 .opening-times {
   width: 50%;
@@ -500,7 +502,7 @@ form {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffdf00;
+  background-color: #E3B140;
 }
 .cta-container {
   padding: 32px;
@@ -514,7 +516,7 @@ form {
   padding: 4px;
 }
 .cta-container a:hover {
-  color: #ffdf00;
+  color: #E3B140;
   background-color: #565656;
 }
 #footer {
@@ -530,7 +532,7 @@ form {
   align-items: center;
 }
 #footer .container p {
-  color: #FFDF00;
+  color: #E3B140;
   text-transform: uppercase;
   padding: 8px;
   font-size: 1.5vmin;
