@@ -111,7 +111,7 @@ nav ul li a:hover {
 }
 .hero-header a {
   width: 100%;
-  margin: 8px 32px;
+  margin: 8px 16px;
   text-decoration: none;
   cursor: pointer;
   background-color: rgba(86, 86, 86, 0.75);
