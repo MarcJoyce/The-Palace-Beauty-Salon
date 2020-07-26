@@ -110,12 +110,9 @@ nav ul li a:hover {
   justify-content: space-between;
   align-items: center;
 }
-.hero-header h4 {
-  font-weight: 200;
-  margin: 16px;
-}
 .hero-header a {
-  width: 45%;
+  width: 100%;
+  margin: 8px 32px;
   text-decoration: none;
   cursor: pointer;
   background-color: rgba(86, 86, 86, 0.75);
